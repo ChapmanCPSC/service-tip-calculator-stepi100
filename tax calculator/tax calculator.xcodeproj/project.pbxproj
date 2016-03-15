@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		857C28CA1C973B930028541A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857C28C91C973B930028541A /* AppDelegate.swift */; };
+		857C28CC1C973B930028541A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857C28CB1C973B930028541A /* ViewController.swift */; };
+		857C28CF1C973B930028541A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857C28CD1C973B930028541A /* Main.storyboard */; };
+		857C28D11C973B930028541A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857C28D01C973B930028541A /* Assets.xcassets */; };
+		857C28D41C973B930028541A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857C28D21C973B930028541A /* LaunchScreen.storyboard */; };
+		857C28DF1C973B940028541A /* tax_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857C28DE1C973B940028541A /* tax_calculatorTests.swift */; };
+		857C28EA1C973B940028541A /* tax_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857C28E91C973B940028541A /* tax_calculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		857C28DB1C973B940028541A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857C28BE1C973B930028541A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857C28C51C973B930028541A;
+			remoteInfo = "tax calculator";
+		};
+		857C28E61C973B940028541A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857C28BE1C973B930028541A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857C28C51C973B930028541A;
+			remoteInfo = "tax calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		857C28C61C973B930028541A /* tax calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tax calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857C28C91C973B930028541A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		857C28CB1C973B930028541A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		857C28CE1C973B930028541A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		857C28D01C973B930028541A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		857C28D31C973B930028541A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		857C28D51C973B930028541A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857C28DA1C973B940028541A /* tax calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tax calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857C28DE1C973B940028541A /* tax_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tax_calculatorTests.swift; sourceTree = "<group>"; };
+		857C28E01C973B940028541A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857C28E51C973B940028541A /* tax calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tax calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857C28E91C973B940028541A /* tax_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tax_calculatorUITests.swift; sourceTree = "<group>"; };
+		857C28EB1C973B940028541A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857C28C31C973B930028541A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857C28D71C973B940028541A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857C28E21C973B940028541A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		857C28BD1C973B930028541A = {
+			isa = PBXGroup;
+			children = (
+				857C28C81C973B930028541A /* tax calculator */,
+				857C28DD1C973B940028541A /* tax calculatorTests */,
+				857C28E81C973B940028541A /* tax calculatorUITests */,
+				857C28C71C973B930028541A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		857C28C71C973B930028541A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857C28C61C973B930028541A /* tax calculator.app */,
+				857C28DA1C973B940028541A /* tax calculatorTests.xctest */,
+				857C28E51C973B940028541A /* tax calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857C28C81C973B930028541A /* tax calculator */ = {
+			isa = PBXGroup;
+			children = (
+				857C28C91C973B930028541A /* AppDelegate.swift */,
+				857C28CB1C973B930028541A /* ViewController.swift */,
+				857C28CD1C973B930028541A /* Main.storyboard */,
+				857C28D01C973B930028541A /* Assets.xcassets */,
+				857C28D21C973B930028541A /* LaunchScreen.storyboard */,
+				857C28D51C973B930028541A /* Info.plist */,
+			);
+			path = "tax calculator";
+			sourceTree = "<group>";
+		};
+		857C28DD1C973B940028541A /* tax calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				857C28DE1C973B940028541A /* tax_calculatorTests.swift */,
+				857C28E01C973B940028541A /* Info.plist */,
+			);
+			path = "tax calculatorTests";
+			sourceTree = "<group>";
+		};
+		857C28E81C973B940028541A /* tax calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				857C28E91C973B940028541A /* tax_calculatorUITests.swift */,
+				857C28EB1C973B940028541A /* Info.plist */,
+			);
+			path = "tax calculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857C28C51C973B930028541A /* tax calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857C28EE1C973B940028541A /* Build configuration list for PBXNativeTarget "tax calculator" */;
+			buildPhases = (
+				857C28C21C973B930028541A /* Sources */,
+				857C28C31C973B930028541A /* Frameworks */,
+				857C28C41C973B930028541A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tax calculator";
+			productName = "tax calculator";
+			productReference = 857C28C61C973B930028541A /* tax calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		857C28D91C973B940028541A /* tax calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857C28F11C973B940028541A /* Build configuration list for PBXNativeTarget "tax calculatorTests" */;
+			buildPhases = (
+				857C28D61C973B940028541A /* Sources */,
+				857C28D71C973B940028541A /* Frameworks */,
+				857C28D81C973B940028541A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857C28DC1C973B940028541A /* PBXTargetDependency */,
+			);
+			name = "tax calculatorTests";
+			productName = "tax calculatorTests";
+			productReference = 857C28DA1C973B940028541A /* tax calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		857C28E41C973B940028541A /* tax calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857C28F41C973B940028541A /* Build configuration list for PBXNativeTarget "tax calculatorUITests" */;
+			buildPhases = (
+				857C28E11C973B940028541A /* Sources */,
+				857C28E21C973B940028541A /* Frameworks */,
+				857C28E31C973B940028541A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857C28E71C973B940028541A /* PBXTargetDependency */,
+			);
+			name = "tax calculatorUITests";
+			productName = "tax calculatorUITests";
+			productReference = 857C28E51C973B940028541A /* tax calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857C28BE1C973B930028541A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrew Stepien";
+				TargetAttributes = {
+					857C28C51C973B930028541A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					857C28D91C973B940028541A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 857C28C51C973B930028541A;
+					};
+					857C28E41C973B940028541A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 857C28C51C973B930028541A;
+					};
+				};
+			};
+			buildConfigurationList = 857C28C11C973B930028541A /* Build configuration list for PBXProject "tax calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857C28BD1C973B930028541A;
+			productRefGroup = 857C28C71C973B930028541A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857C28C51C973B930028541A /* tax calculator */,
+				857C28D91C973B940028541A /* tax calculatorTests */,
+				857C28E41C973B940028541A /* tax calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857C28C41C973B930028541A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857C28D41C973B930028541A /* LaunchScreen.storyboard in Resources */,
+				857C28D11C973B930028541A /* Assets.xcassets in Resources */,
+				857C28CF1C973B930028541A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857C28D81C973B940028541A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857C28E31C973B940028541A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		857C28C21C973B930028541A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857C28CC1C973B930028541A /* ViewController.swift in Sources */,
+				857C28CA1C973B930028541A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857C28D61C973B940028541A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857C28DF1C973B940028541A /* tax_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857C28E11C973B940028541A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857C28EA1C973B940028541A /* tax_calculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		857C28DC1C973B940028541A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857C28C51C973B930028541A /* tax calculator */;
+			targetProxy = 857C28DB1C973B940028541A /* PBXContainerItemProxy */;
+		};
+		857C28E71C973B940028541A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857C28C51C973B930028541A /* tax calculator */;
+			targetProxy = 857C28E61C973B940028541A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		857C28CD1C973B930028541A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857C28CE1C973B930028541A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		857C28D21C973B930028541A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857C28D31C973B930028541A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857C28EC1C973B940028541A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		857C28ED1C973B940028541A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857C28EF1C973B940028541A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tax calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chapman.edu.tax-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		857C28F01C973B940028541A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tax calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chapman.edu.tax-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		857C28F21C973B940028541A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tax calculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chapman.edu.tax-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tax calculator.app/tax calculator";
+			};
+			name = Debug;
+		};
+		857C28F31C973B940028541A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tax calculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chapman.edu.tax-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tax calculator.app/tax calculator";
+			};
+			name = Release;
+		};
+		857C28F51C973B940028541A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tax calculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chapman.edu.tax-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tax calculator";
+			};
+			name = Debug;
+		};
+		857C28F61C973B940028541A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tax calculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chapman.edu.tax-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tax calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		857C28C11C973B930028541A /* Build configuration list for PBXProject "tax calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857C28EC1C973B940028541A /* Debug */,
+				857C28ED1C973B940028541A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857C28EE1C973B940028541A /* Build configuration list for PBXNativeTarget "tax calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857C28EF1C973B940028541A /* Debug */,
+				857C28F01C973B940028541A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		857C28F11C973B940028541A /* Build configuration list for PBXNativeTarget "tax calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857C28F21C973B940028541A /* Debug */,
+				857C28F31C973B940028541A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		857C28F41C973B940028541A /* Build configuration list for PBXNativeTarget "tax calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857C28F51C973B940028541A /* Debug */,
+				857C28F61C973B940028541A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 857C28BE1C973B930028541A /* Project object */;
+}
